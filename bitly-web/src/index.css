@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+button {
+  @apply bg-blue-600 border border-blue-600 text-white min-w-[80px] p-2 rounded-md cursor-pointer font-medium;
+}
+
+button.outline {
+  @apply bg-transparent border border-blue-600 text-blue-600;
+}
+
+pre {
+  @apply bg-gray-800 text-white p-4 rounded-md;
+}
+
+input {
+  @apply border border-gray-300 p-2 rounded-md;
+}

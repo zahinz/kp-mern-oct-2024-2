@@ -1,0 +1,18 @@
+meta {
+  name: POST login existing user
+  type: http
+  seq: 5
+}
+
+post {
+  url: http://localhost:8080/api/login
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "identifier": "zahinzul@mail.com",
+    "password": "abcd1234"
+  }
+}
